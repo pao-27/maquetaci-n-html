@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="EstiloInicio.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
@@ -19,38 +19,65 @@
     </div>
 <!--MENÚ busqueda perfil-->
     <header>
-    <nav>
-        <a href="/inicio.html" class="logo"><i class='bx bxs-home'></i></a>
+    <div id="mi-menu">
+        <nav>
+            <a href="/inicio.html" class="logo"><i class='bx bxs-home'></i></a>
+    
+            <div class="menú"
+            <form>
+                <input type="search" placeholder="Busca en tu BAUL de confianza">
+                <button type="submit"><i class='bx bx-search-alt'></i></button>
+                <a href="#" class="icon"><i class='bx bx-user-circle'></i></a>
+                <a href="#" class="icon"><i class='bx bx-shopping-bag'></i></a>
+                
+            </form>
+    <!--Menú desplegable --> 
+    <ul class=nav>
+        <li>
+          <button class="menu-btn"> 
+            <i class='bx bx-menu'></i>
+          </button>
+          <ul>
+            <li>
+              <a href="#">Ropa</a>
+              <ul class="ropa">
+                <li>
+                  <a href="#">Mujeres</a>
+                  <ul>
+                    <li><a href="#">Camisas y blusas</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Pantalones y faldas</a></li>
+                    <li><a href="#">Abrigos</a></li>
+                    <li><a href="#">Ropa deportiva</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Hombres</a>
+                  <ul>
+                    <li><a href="#">Camisas</a></li>
+                    <li><a href="#">Pantalones</a></li>
+                    <li><a href="#">Abrigos</a></li>
+                    <li><a href="#">Ropa deportiva</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Maquillaje</a>
+              <ul>
+                <li><a href="#">Rostro</a></li>
+                <li><a href="#">Ojos</a></li>
+                <li><a href="#">Labios</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+</div> 
+    
 
-        <div class="menú"
-        <form>
-            <input type="search" placeholder="Busca en tu BAUL de confianza">
-            <button type="submit"><i class='bx bx-search-alt'></i></button>
-            <a href="#" class="icon"><i class='bx bx-user-circle'></i></a>
-            <a href="#" class="icon"><i class='bx bx-shopping-bag'></i></a>
-            
-        </form>
 
-
-
-        <nav> <!--Menú desplegable -->
-            <button class="menu-btn"><i class='bx bx-menu'></i></button>
-            <ul>
-                <li><a href="#"></a>Ropa</a></li>
-                <li><a href="#"></a>Maquillaje</a></li>
-                <li><a href="#"></a>Ropa</a></li>
-                <li><a href="#"></a>Ropa</a></li>
-            </ul>
-        </nav>
-
-        <i class='bx bx-menu'></i> <!-- emoji de menú -->
-        <i class='bx bxs-home'></i> <!-- emoji de casa -->
-        <i class='bx bx-search-alt'></i> <!-- emoji de lupa -->
-        <i class='bx bx-x'></i> <!-- emoji de x (para limpiar)-->
-        <i class='bx bx-user-circle'></i> <!--perfil -->
-
-    </nav>
-    </header>
 
     <!--Hacer carrusel-->
 
@@ -65,7 +92,7 @@
                 <p>Camisa a rayas oversized- negra</p>
                 <p class="price">70.000</p>
                 <button>añadir al carrito</button>
-                </div>
+                
 
                 <img src="imagenes/camisas.jpeg" <div class="info-productos" <h2>3 camisas cuello redondo</h2>
                 <p>paquete de 3 de cuello redondo de punto rib</p>
@@ -82,24 +109,9 @@
                 <button>añadir al carrito</button>
             </figure>
             </header>
-            </div>
+            
 
 
-            <!--EJEMPLOOOOO-->
-
-            <header>
-                <nav class="navbar">
-                    <a href="#" class="logo">Casa</a>
-                    <div class="search-container">
-                        <input type="text" placeholder="Busca en tu baúl">
-                        <button class="search-btn">&#128269;</button>
-                        <button class="clear-btn">&#10006;</button>
-                    </div>
-                </div>
-                <div class="icons">
-                    <a href="#" class="icon">&#128100;</a> <!-- Perfil -->
-                    <a href="#" class="icon">&#128722;</a> <!-- Carrito de compras -->
-                    <button class="menu-btn">&#9776;</button> <!-- Menú -->
-</body>
+            
 
 </html>
